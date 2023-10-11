@@ -49,7 +49,7 @@
   background: url(https://fastly.picsum.photos/id/905/1920/1080.jpg?hmac=Tcjfgfdgcrftjt_EnNyT_i-mn_NRYsETpdQx0-GGWDY);
 }
 
-.herocontent {
+.hero-content {
   position: relative;
   z-index: 1;
 }
@@ -63,7 +63,7 @@
   left: 0;
 }
 
-.herocontent h1 {
+.hero-content h1 {
   width: 65%;
   margin-bottom: 30px;
   color: #fff;
@@ -71,7 +71,7 @@
   font-weight: 700;
 }
 
-.herocontent p {
+.hero-content p {
   margin-bottom: 30px;
   color: #fff;
   font-size: 18px;
@@ -99,6 +99,7 @@
   align-items: center;
   height: 100%;
   padding-top: 40px;
+  padding-bottom: 40px;
 }
 .contact {
   cursor: not-allowed;
@@ -135,8 +136,6 @@
 
 .offer {
   background: #405d78;
-
-  padding-bottom: 20px;
 }
 
 .offer-title {
@@ -241,7 +240,6 @@
 
   .people {
     flex-direction: row;
-    margin-bottom: 40px;
   }
 
   .people:nth-of-type(even) {
@@ -271,12 +269,13 @@
     height: 71px;
   }
   .container-footer {
-    width: 1280px;
+    width: 960px;
     margin: 0 auto;
   }
   .footer-flex {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
   }
 }
